@@ -15,11 +15,7 @@ android_app {
     system_ext_specific: true,
     platform_apis: true,
 
-    overrides: [
-        "Provision",
-        "SetupWizard",
-        "SetupWizardPrebuilt_versioned",
-    ],
+    overrides: ["Provision"],
 
     optimize: {
         proguard_flags_files: ["proguard.flags"],
